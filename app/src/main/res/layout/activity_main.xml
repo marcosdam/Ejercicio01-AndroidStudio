@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnAct2Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickBoton"
+        android:text="Actividad 2" />
+
+    <EditText
+        android:id="@+id/txtMarcaMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtModeloMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtProcesadorMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Procesador"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPulgadasMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pantalla"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtTamanioDiscoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Capacidad HDD"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtTamanioRamMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RAM"
+        android:inputType="number" />
+
+    <Switch
+        android:id="@+id/swSSDMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSD" />
+
+</LinearLayout>
